@@ -1,0 +1,12 @@
+#pragma once
+enum class ErrorCode:short
+{
+	SUCCESS,
+	SIZE_OVERFLOW,
+	INVALID_PARAMETER,
+	UNINITIALIZED,
+	WRITE_ERROR,
+	NO_FILE_OR_DIR,
+	NO_ACCESS,
+	FILE_EXIST
+};
